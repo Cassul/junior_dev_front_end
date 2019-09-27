@@ -31,8 +31,7 @@ module.exports = {
   externals: {
     // global app config object
     config: JSON.stringify({
-      apiUrl:
-        process.env.JUNIOR_DEV || "https://junior-dev-project.herokuapp.com"
+      apiUrl: process.env.JUNIOR_DEV || "http://localhost:7777"
     })
   }
 };
